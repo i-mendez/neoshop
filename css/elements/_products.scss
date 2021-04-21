@@ -1,0 +1,101 @@
+// TODO: Desarrollar el CSS para los productos
+.products {
+  width: 60%;
+  margin: auto;
+}
+
+.catalog{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+.bg_product{
+    height: 200px;
+  
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+    padding: 3%;
+}
+.product{
+    width: 280px;
+    margin: 2%;
+
+}
+.product:hover{
+   box-shadow:1px 1px 10px #000000 ;
+    transition:  box-shadow 400ms linear;
+
+}
+
+.product a{
+    margin-left:25% ;
+}
+
+.product a:hover{
+    font-weight: bolder;
+    background-color: #e9db12;
+    color: black;
+
+    -webkit-transition: background-color 800ms linear;
+    -ms-transition: background-color 800ms linear;
+    transition: background-color 800ms linear;
+
+    -webkit-transition: color 600ms linear;
+    -ms-transition: color 600ms linear;
+    transition: color 600ms linear;
+
+}
+
+
+.info_product{
+    padding: 5%;
+    display: flex;
+    width: 100%;
+}
+
+
+.price_product{
+
+   flex-grow: 1;
+    background-color: #e9db12;
+    font-weight: bolder;
+    max-width: 75px;
+    text-align: center;
+    padding: 3%;
+    text-align: center;
+    transform: rotate(-25deg);
+}
+.name_product{
+    font-size: 18px;
+   word-wrap: break-word;
+   flex-grow: 1;
+
+
+}
+
+.cta{
+    width: 45%;
+    height: 300px;
+    flex-grow: 2;
+    margin: 2%;
+    background-size:100% 222%;
+    background-position:50% 100%;
+    background-repeat: no-repeat;
+}
+.cta1{
+    background-image:  url('http://localhost/neoshop/resources/cta/cta1.jpg');
+
+}
+
+.cta2{
+    background-image:  url('http://localhost/neoshop/resources/cta/cta2.jpg');
+
+}
+
+.load {
+    text-align: center;
+}
